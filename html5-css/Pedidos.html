@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrapet - PataShop</title>
+
+    <base target="_blank" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stoke">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+</head>
+<body>
+    <header>
+        <img class="imgLogo" src="../imagens/CarrapetLogoTopo.png">
+        <address class="ender">
+            Largo do Frajola, 23<br>Tel:(21) 94321-1234<br>
+<a href="mailto:contato@carrapet.com.br">contato@carrapet.com.br</a>
+        </address>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="2_Carrapet.html">Apresentação</a></li>
+            <li><a href="Cuidados.html">Cuidados</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Pedidos.html">Pedidos</a></li>
+        </ul>
+    </nav>
+    <section>
+         <div class="divCompras">
+            <h3>Compras</h3>
+            <form method="POST">
+                <fieldset>
+                    <legend>Identificação</legend>
+
+                    <div class="divLinha">
+                        <label for="inome"class="colPri">Nome:</label>
+                        <input type="text" class="inpGrande" name="nome" id="inome">          
+                    </div>
+
+                    <div class="divLinha">
+                        <label for="iemail" class="colPri">Email:</label>
+                        <input type="email" class="inpGrande" name="email" id="iemail">
+                    </div>
+
+                    <div class="divLinha">
+                        <label for class="colPri">Endereço:</label>
+                        <textarea name="address" class="impEnder"></textarea>
+                    
+
+                    <fieldset class="fsDir">
+                        <legend>Genero</legend>
+                        <label><input type="radio" name="sexo" id="isexoM" checked>Mas</label>
+                        <label><input type="radio" name="sexo" id="isexoF">Fem</label>
+                        <label><input type="radio" name="sexo" id="ioutro">Outro</label>
+                    </fieldset>
+                    </div>
+
+                    <div class="divLinha">
+                        <fieldset class="fsDir">
+                            <legend>Nascimento</legend>
+                            <label><input type="number" class="numDD"
+                                name="dataD" min="1" max="31"></label> /
+                            <label><input type="number" class="numDD"
+                                name="dataM" min="1" max="12"></label> /
+                            <label><input type="number" name="dataA" class="numQD" min="1926" max="2026"></label>
+                        </fieldset>
+
+                        <label for="itelefone" class="colPri">Telefone:</label>
+                        <input type="tel" class="impTelef"  name="telefone" id="itelefone">
+                    </div>
+
+                    <div class="divLinha">
+                        <label for="icel" class="colPri">Celular:</label>
+                        <input type="text" class="impTelef" name="cel" id="icel">
+                    </div>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Seleção de Produtos e Pagamento</legend>
+                    <select name="produtos" id="iprodutos">
+                        <option>----</option>
+                        <optgroup label="Ração Cão">
+                            <option>PEDIGREE Carne 10kg</option>
+                            <option>Purina Alpo C&F 10kg</option>
+                        </optgroup>
+
+                        <optgroup label="Ração Gato">
+                            <option>GranPlus Choice C&F 10kg</option>
+                        </optgroup>
+
+                        <optgroup label="Brinquedo Cão">
+                            <option>JAMBO Osso Silicone</option>
+                        </optgroup>
+
+                    </select>
+                    <input type="button" value="+">
+                    <textarea class="listaCompras" name="compras"></textarea>                        
+
+                <br><br><fieldset class="fsEsq">
+                    <legend>Cartão</legend>
+
+                   <label class="colLabCrd" >Bandeira: 
+                    <label><input type="radio" name="bandeira" checked>Visa</label>
+                    <label><input type="radio" name="bandeira" />Master</label> 
+                    <label><input type="radio" name="bandeira" />Elo</label>
+                   </label><br>
+
+                   <label class="colLabCrd">Validade:
+                   <input type="number" class="numDD" name="mes"
+                   min="1" max="12" value="6"> /
+                   <input type="number" class="numQD" name="mes"
+                   min="2026" max="2050" value="2026">
+                   </label><br>
+
+                   <label for="inumber" class="colLabCrd">Número:
+                   <input type="text" name="number" id="inumber">
+                   </label>
+
+                </fieldset>
+
+                <label for="ivalor" class="elemDir"><br>Valor R$ 
+                    <input type="text" class="impMedio" name="valor" id="ivalor" readonly>
+                </label>
+
+                </fieldset>
+
+                <div class="botoes">
+                    <input type="submit" value="Confirmar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+         </div>
+</body>
+</html>

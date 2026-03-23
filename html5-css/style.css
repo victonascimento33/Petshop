@@ -1,0 +1,178 @@
+/*Estilo das divisões padrão da página*/
+
+header{ display: block; margin-bottom: 1px;}
+
+nav{ display: block; width: 20%; float: left;}
+
+section{display: block; width: 70%; float: right;}
+
+/*Estilo das Tags e Classes de estilo da página*/
+
+body{background-color: #60A040;
+    color:#F0E090;
+    font-size: 16px;
+    font-family:stoke, Lucida Bright, liberation;}
+
+a:link{text-decoration: none;
+    color:#F0E0A0;}
+a:visited{text-decoration: none;
+    color:  #F0E080;}
+
+ol{line-height: 200%;}
+ul{line-height: 200%;}
+
+.ender{float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family:  Karla, Verdana, Ubuntu;}
+
+.imgLogo{border-bottom: 4px solid #F0E090;
+    margin-bottom: 6px;
+    padding-bottom: 15px;}
+
+.apres{text-align: center;font-size: 16px;}
+
+/*Estilo dentro do nav */
+
+nav ul{color:#F0E090;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: disc;}
+
+/* Classes de Estilo da lista de  Cuidados */
+
+.titulo{text-align: center;}
+
+.listaCuida{width: 380px;
+        color: #3366BB;
+        background-color: #FFFFBB;
+        padding: 10px;
+        border: 2px solid #000000;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;}
+
+.listaCuida ul{list-style-type: square;}
+
+.listaCuida ol{list-style-type: lower-latin;}
+
+.preco{color: #C00000;}
+
+/* Classes de Estilo da Página Produtos */
+
+.tabProd{border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    color: #114499;
+    font-family: Karla, Verdana, Ubuntu;}
+
+.tabProd th,td{border: 2px #000000 solid;
+            padding: 6px 12px 6px 12px;}
+
+.tabProd .linTH{color: #FFFFFF;
+    background-color: #0077BB;
+    vertical-align: middle;
+    text-align: center ;}
+    
+.tabProd .colTH{color: #FFFFFF;
+    background-color: #22AAEE;
+    text-align: left;}
+
+ .tabProd.imgPet{width: 40px;
+    height: 40px;}
+
+ .tabProd.imgQueijo{width: 90px;
+    height: 90px;}
+
+/* Classes de Estilo  Formulário */
+
+.divCompras{width: 550px;
+    color: #2255AA;
+    background-color: #FFFFBB;
+    padding: 6px 6px 15px 6px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;}
+
+/*    Elementos do Formulário      */
+
+.listaCompras{width: 210px;
+    height: 160px;
+    float: right;
+    margin-top: 2px;
+    margin-left: 10px;}
+
+.colcolLabSelProd{width: 230px;
+    height: 40px;
+    float: left;}
+
+.colSelProd{width: 160px;
+    float: right;}
+
+.linhaProdSel{width: 220px;
+    margin-bottom: 6px;
+    float: left;}
+
+.elemEsq{display: block;
+    float: left;}
+
+.elemDir{display: block;
+    float: right;}
+
+.botoes{text-align: right;
+    margin: 20px 10px 0px 10px;}
+
+/* Posicionamento de Fieldsets */
+
+.fsEsq{float: left;
+    display: inline;
+    margin: 0px;}
+
+.fsDir{float: right;
+    display: inline;
+    margin: 0px;}
+
+/* Tamanho de elementos de entrada de valores */
+
+.inpGrande{width: 380px;}
+
+.impMedio{width: 80px;}
+
+.impNCC{width: 130px;}
+
+.impTelef{width: 90px;}
+
+.impEnder { width: 180px; 
+    height: 50px; }
+
+.numDD { width: 30px;}
+
+.numQD { width: 50px;}
+
+/* Estilo de Elementos do Formulário */
+
+.divLinha{width: 500px;
+    margin-bottom: 6px;}
+
+.colLabCrd{width: 260px;
+    height: 40px;
+    float: left;}
+    
+.colPri{float: left;
+    display: block;
+    width: 90px;}
+    
+.colPriCompras{float: left;
+    display: block;
+    width: 86px;}
+    
+.colPriPag{float: left;
+    display: block;
+    width: 250px;}
